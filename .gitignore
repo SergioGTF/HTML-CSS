@@ -1,0 +1,28 @@
+# Ignore arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+
+# Ignore arquivos de log
+*.log
+
+# Ignore caches do editor
+*.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore diretórios de build (caso utilize algum)
+dist/
+build/
+
+# Ignore caches do npm (caso utilize)
+node_modules/
+
+# Ignore arquivos de backup
+*.bak
+*.tmp
+*.swp
+
+# Ignore arquivos de configuração do OS
+*.ini
+*.iml
